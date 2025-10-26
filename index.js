@@ -19,5 +19,3 @@ fs.writeFile('URL.txt', answer, (err) => {
 var qr_svg = qr.image(answer);
 qr_svg.pipe(fs.createWriteStream('qr_img.png'));
 
-
-// commit to github
