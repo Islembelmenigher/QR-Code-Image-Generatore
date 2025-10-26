@@ -3,7 +3,7 @@
 import { input } from '@inquirer/prompts';
 import fs from 'fs';
 import qr from 'qr-image'; 
-const answer = await input({ message: 'Enter your name' });
+const answer = await input({ message: 'Enter your Link or a text : ' });
 
 
 
